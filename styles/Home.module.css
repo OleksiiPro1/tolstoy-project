@@ -1,0 +1,30 @@
+.mainDiv {
+  text-align: center;
+}
+
+.textDivStyle1 {
+  width: 49%;
+  float: left;
+  background-color: gray;
+  margin-left: 5px;
+}
+
+.textDivStyle2 {
+  width: 49%;
+  float: left;
+  background-color: gray;
+  margin-left: 5px;
+}
+
+.mainScreenStyle {
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.textDivStyle3 {
+  margin-top: 430px;
+  background-color: brown;
+  padding-left: 10%;
+  padding-right: 10%;
+}
