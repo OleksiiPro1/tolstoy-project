@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.mealsStyles {
+  background-color: gray;
+  margin: 10px;
+}
+
 .textDivStyle1 {
   width: 49%;
   float: left;
