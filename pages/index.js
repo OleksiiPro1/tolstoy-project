@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { allMeals } from './util/database';
 
 export default function Home() {
   return (
@@ -59,16 +58,6 @@ export default function Home() {
           guests in your restaurant in the best way possible.
         </p>
       </div>
-      <h1>Meals</h1>
-      {allMeals.map((allMeal) => {
-        return (
-          <div className={styles.mealsStyles} key={`allMeal-${allMeal.id}`}>
-            <div>Meal: {allMeal.meal}</div>
-            <div>Price: {allMeal.price}</div>
-            <div>description: {allMeal.description}</div>
-          </div>
-        );
-      })}
     </header>
   );
 }

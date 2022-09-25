@@ -1,26 +1,30 @@
+import fs from 'node:fs';
+
+console.log(fs);
+
 export const allMeals = [
   {
-    id: '1',
+    id: 'pizza',
     meal: 'Pizza',
     price: '100',
     description: 'Best pizza in the world',
   },
   {
-    id: '2',
-    meal: 'Salat',
+    id: 'salad',
+    meal: 'Salad',
     price: '20',
-    description: 'Best salat in the world',
+    description: 'Best salad in the world',
   },
   {
-    id: '3',
+    id: 'tea',
     meal: 'Tea',
     price: '15',
     description: 'Best Tea in the world',
   },
   {
-    id: '4',
-    meal: 'Cofee',
+    id: 'coffee',
+    meal: 'Coffee',
     price: '18',
-    description: 'Best cofee in the world',
+    description: 'Best coffee in the world',
   },
 ];
