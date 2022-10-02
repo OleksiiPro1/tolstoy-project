@@ -1,10 +1,16 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <header className={styles.mainDiv}>
       <h1>Restaurant Vienna</h1>
+      <div>
+        <Link href={'/meals'}>
+          <h2>All meals</h2>
+        </Link>
+      </div>
       <div className={styles.mainScreenStyle}>
         <div className={styles.textDivStyle1}>
           <p>

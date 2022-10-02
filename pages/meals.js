@@ -27,6 +27,11 @@ export default function AllMeals(props) {
           </div>
         );
       })}
+      <div>
+        <Link href={'/'}>
+          <h2>Main page</h2>
+        </Link>
+      </div>
     </div>
   );
 }
