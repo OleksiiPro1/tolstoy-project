@@ -60,12 +60,20 @@ const mealStyles = css`
 // );
 // console.log(sumWithInitial);
 
-const array5 = ['a', 'b', 'c'];
-const array6 = ['d', 'e', 'f'];
-const array7 = array5.concat(array6);
-console.log(array7);
+// const array5 = ['a', 'b', 'c'];
+// const array6 = ['d', 'e', 'f'];
+// const array7 = array5.concat(array6);
+// console.log(array7);
+
+// const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+// console.log(animals.slice(2));
+
+// const months = ['Jan', 'March', 'April', 'June'];
+// months.splice(1, 2, 'Feb');
+// console.log(months);
 
 // end training
+
 export default function Meal(props) {
   const [isInMeals, setIsInMeals] = useState(false);
   if (!props.meal) {
