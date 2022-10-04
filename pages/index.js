@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import ExpenseItem from './components/ExpenseItem';
+import NewExpense from './components/NewExpense/NewExpense';
 
 const Home = () => {
   const expenses = [
@@ -72,6 +73,7 @@ const Home = () => {
           guests in your restaurant in the best way possible.
         </p>
       </div>
+      <NewExpense />
       <div className="expenses">
         <ExpenseItem
           title={expenses[0].title}
