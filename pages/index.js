@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import styles from '../styles/Home.module.css';
+import Counter from './components/Counter';
 import ExpenseItem from './components/ExpenseItem';
 import ExpensesFilter from './components/ExpensesFilter';
 import NewExpense from './components/NewExpense/NewExpense';
@@ -53,6 +54,7 @@ const Home = () => {
           date={expenses[3].date}
         />
       </div>
+      <Counter />
     </div>
   );
 };
